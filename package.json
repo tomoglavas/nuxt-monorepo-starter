@@ -4,7 +4,9 @@
     "packages": "dotenv -- pnpm --filter",
     "app": "pnpm packages @nuxt-monorepo/app",
     "dev": "dotenv -- pnpm --parallel -r dev",
-    "build": "dotenv -- pnpm -r build"
+    "build": "dotenv -- pnpm -r build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "dotenv-cli": "^7.3.0"
