@@ -16,5 +16,12 @@ const config = useRuntimeConfig()
     {{ config.public.apiBase }}
     <UiTheMessage ref="theMessage" />
     api/baseUrl: {{ baseUrl }}
+
+
+    <!-- overrided by 'app' unocss config -->
+    <div class="bg-app">red bg</div>
+
+    <!-- from 'ui' unocss config -->
+    <div class="bg-ui">green bg</div>
   </div>
 </template>
