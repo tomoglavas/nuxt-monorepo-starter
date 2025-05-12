@@ -3,7 +3,7 @@
   "scripts": {
     "packages": "dotenv -- pnpm --filter",
     "app": "pnpm packages @nuxt-monorepo/app",
-    "dev": "dotenv -- pnpm -r dev",
+    "dev": "dotenv -- pnpm --parallel -r dev",
     "build": "dotenv -- pnpm -r build"
   },
   "devDependencies": {
