@@ -3,7 +3,7 @@ import { message } from '~ui/constants/message'
 </script>
 
 <template>
-    <div>
-        Component from ui {{ message }}
-    </div>
+  <div>
+    Component from ui {{ message }}
+  </div>
 </template>

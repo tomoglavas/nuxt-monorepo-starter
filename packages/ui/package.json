@@ -1,7 +1,7 @@
 {
   "name": "@nuxt-monorepo/ui",
-  "private": true,
   "type": "module",
+  "private": true,
   "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",

@@ -3,5 +3,5 @@ import { vTest } from '#imports'
 </script>
 
 <template>
-    <div v-test />
+  <div v-test />
 </template>
