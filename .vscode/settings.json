@@ -66,5 +66,25 @@
   "eslint.debug": false,
   "eslint.useFlatConfig": true,
   "eslint.format.enable": true,
-  "eslint.problems.shortenToSingleLine": true
+  "eslint.problems.shortenToSingleLine": true,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#acc2b7",
+    "activityBar.background": "#acc2b7",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#7f6c93",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#acc2b7",
+    "statusBar.background": "#8ead9d",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#709883",
+    "statusBarItem.remoteBackground": "#8ead9d",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#8ead9d",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#8ead9d99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#8ead9d"
 }
