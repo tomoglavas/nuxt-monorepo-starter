@@ -1,5 +1,5 @@
-import { eslintConfigBase } from '@nuxt-monorepo/lint'
+import { eslintConfigNuxt } from '@nuxt-monorepo/lint'
 
 import withNuxt from './.nuxt/eslint.config.mjs'
 
-export default withNuxt(eslintConfigBase)
+export default withNuxt(eslintConfigNuxt)
