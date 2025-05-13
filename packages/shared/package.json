@@ -1,9 +1,0 @@
-{
-  "name": "@nuxt-monorepo/shared",
-  "private": true,
-  "devDependencies": {
-    "@nuxt/eslint": "^1.3.1",
-    "eslint": "^9.26.0",
-    "typescript": "^5.8.3"
-  }
-}

@@ -1,34 +1,70 @@
 {
+  // Disable the default formatter, use eslint instead
+  "editor.formatOnSave": false,
+  "prettier.enable": false,
+
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off", "fixable": true },
+    { "rule": "format/*", "severity": "off", "fixable": true },
+    { "rule": "*-indent", "severity": "off", "fixable": true },
+    { "rule": "*-spacing", "severity": "off", "fixable": true },
+    { "rule": "*-spaces", "severity": "off", "fixable": true },
+    { "rule": "*-order", "severity": "off", "fixable": true },
+    { "rule": "*-dangle", "severity": "off", "fixable": true },
+    { "rule": "*-newline", "severity": "off", "fixable": true },
+    { "rule": "*quotes", "severity": "off", "fixable": true },
+    { "rule": "*semi", "severity": "off", "fixable": true }
+  ],
+
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "svelte",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
+  ],
+
+  // Other rules
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
-  "editor.formatOnSave": false,
   "[typescript, javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
   "files.eol": "\n",
   "files.exclude": {
     "**/node_modules": true,
     "**/dist": true,
     "**/tsconfig.tsbuildinfo": true
   },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.debug": false,
   "eslint.useFlatConfig": true,
-  "eslint.format.enable": false,
-  "eslint.validate": [
-    "vue",
-    "json",
-    "javascript",
-    "typescript"
-  ],
-  "eslint.options": {
-  }
+  "eslint.format.enable": true,
+  "eslint.problems.shortenToSingleLine": true
 }

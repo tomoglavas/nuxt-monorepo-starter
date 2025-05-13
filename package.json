@@ -1,5 +1,8 @@
 {
   "name": "nuxt-monorepo",
+  "engines": {
+    "node": ">=20.10.0 <22.0.0"
+  },
   "scripts": {
     "packages": "dotenv -- pnpm --filter",
     "app": "pnpm packages @nuxt-monorepo/app",

@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt-monorepo/shared": "workspace:^",
+    "@nuxt-monorepo/lint": "workspace:^",
     "@nuxt-monorepo/ui": "workspace:^",
     "@nuxt/devtools": "latest",
     "@unocss/nuxt": "^66.1.1",

@@ -13,7 +13,7 @@ export default defineNuxtConfig({
 	alias: { '~ui': resolve('./') },
 	eslint: {
 		config: {
-			stylistic: true,
+      standalone: false,
 		},
 	},
 });

@@ -1,6 +1,9 @@
 {
-    "name": "@nuxt-monorepo/api",
-    "private": true,
-    "type": "module",
-    "main": "./index.ts"
+  "name": "@nuxt-monorepo/api",
+  "type": "module",
+  "private": true,
+  "main": "./index.ts",
+  "devDependencies": {
+    "@nuxt-monorepo/lint": "workspace:^"
+  }
 }

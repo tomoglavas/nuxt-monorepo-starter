@@ -1,12 +1,3 @@
-import stylistic from '@stylistic/eslint-plugin';
+import { eslintConfigBase } from './packages/lint/lint.js'
 
-export default [
-  {
-    plugins: {
-      '@stylistic': stylistic
-    },
-    rules: {
-      semi: 'error'
-    }
-  }
-];
+export default eslintConfigBase
